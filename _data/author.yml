@@ -1,0 +1,59 @@
+# Author settings
+name: 石洪吉
+title: Learner | Gamer
+address: 中国, 北京
+email: hongji.bj@foxmail.com
+github: shihongji
+gavatar: /assets/img/avatar.JPG
+workHistory:
+
+- work2:
+  company: 共青团北京科技大学委员会 宣传部
+  location: 中国，北京
+  title: 副部长
+  started: 2013
+  duration: (2013.9 - 2014.6)
+  description: 手机报内容制作，展板制作，海报设计
+
+- work1:
+  company: 上海宝钢国际有限公司
+  location: 中国, 上海
+  title: 青蓝计划实习生
+  started: 2013
+  duration: (2013.7 - 2013.9)
+  description: 业务培训学习
+
+educationHistory:
+- education1:
+  organization: 北京科技大学（USTB）
+  degree: 学士
+  major: 材料科学与工程
+  started: 2010
+  duration: (2010.9 - 2014.7)
+  description: 挑战杯全国大学生创业大赛金奖
+
+- education2:
+  organization: 北京科技大学（USTB）
+  degree: 硕士
+  major: 材料科学与工程
+  started: 2014
+  duration: (2014.9 - 2017.1)
+  description: 中科院物理所联合培养
+  
+languages:
+- language1:
+  name: 中文
+  proficiency: Native
+- language2:
+  name: English
+  proficiency: Limit
+programmingSkills:
+- PHP:
+  name: PHP
+  percentage: 30%
+- Python:
+  name: Python
+  percentage: 50%
+- HTML/CSS:
+  name: HTML/CSS
+  percentage: 30%

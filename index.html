@@ -1,18 +1,26 @@
 ---
-layout: default
-tittle: 石洪吉的博客
+layout: blog_layout
 ---
 
-<h2>{{ page.title }}</h2>
-<h3>简介</h3>
-<p>我会在这里发布每天的学习和思考</p>
-<br/>
-<p>最新文章</p>
-<ul>
-	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string  }} <a href="{{ site.baseurl  }}{{ post.url }}">{{ post.title  }}</a></li>
+{% for post in site.posts %}
+<article class="preview">
+    <header>
+        <h2 class="post-title">
+            <a href="{{ post.url }}">  {{ post.title }} </a>
+        </h2>
+        <p class="post-time"> {{ post.time }}</p>
+    </header>
+    <section class="post-section">
+        <p>
+            {{ post.excerpt }}
+        </p>
+        <p class="readmore">
+            <a href="{{ post.url }}">
+                阅读全文
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            </a>
+        </p>
+    </section>
 
-	{% endfor %}	
-
-
-</ul>
+</article>
+{% endfor %}

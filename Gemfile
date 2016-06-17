@@ -1,2 +1,4 @@
-source 'http://ruby.taobao.org/'
-gem 'github-pages'
+source "https://rubygems.org"
+gem "rake"
+
+gem "jekyll"
