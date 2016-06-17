@@ -28,7 +28,9 @@ Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac n
 ## Education
 
 2010 - 2014		
-: 北京科技大学 材料科学与工程 本科		
+: 北京科技大学 材料科学与工程 本科	
+
 2014 - now		
-: 北京科技大学 材料科学与工程 硕士		
-：中科院物理所 联合培养
+: 北京科技大学 材料科学与工程 硕士	
+	
+: 中科院物理所 联合培养
