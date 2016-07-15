@@ -23,5 +23,15 @@ cat volcanoes.txt | wc
 sort lakes.txt
 //sort takes standard input and orders it alphabetically for the std output.		
 uniq deserts.txt
-//uniq stands for "unique" and filters out adjacent, duplicate lines in a file.
+//uniq stands for "unique" and filters out adjacent, duplicate lines in a file.		
+grep Mount mountains.txt
+//grep stands for "global regular expression print". It searches files for lines that match a pattern and returns the results. It is also case sensitive. grep -i enables the command to be case insensitive.		
+grep -R Arctic /home/ccuser/workspace/geography
+//grep -R searches all files in a directory and outputs filenames and lines containing matched results. -R stands for "recursive".		
+grep -Rl Arctic /home../../..
+// l stands for "files with matches". grep -Rl searches the directory for the string and outputs filenames with matched results.		
+sed 's/snow/rain/' forests.txt
+//sed stands for "stream editor". It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to "find and replace". s stands for "substitution", snow is the search string, rain is the replacement string. This command will only replace the first instance of 'snow' on a line.		
+sed 's/snow/rain/g' forests.txt
+// g expression, meaning "global".
 </pre></code>
